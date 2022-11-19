@@ -2,5 +2,33 @@
 body {
     margin: 8px;
     display: block;
-    background-color: blueviolet;
+    background-color: transparent;
+  }
+
+p {
+    margin: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: block;
+    text-align: center;
+    background-color: lightgray;
+  }
+
+
+h1 {
+    margin: 40px;
+    padding: 20px;
+    text-align: center;  
+    display: block;
+    background-color: transparent;
+  }
+
+h2 {
+    margin: 5px;
+    padding: 5px;
+    text-align: center;  
+    display: block;
+    background-color: transparent;
   }

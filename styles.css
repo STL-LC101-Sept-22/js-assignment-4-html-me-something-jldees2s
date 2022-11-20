@@ -7,6 +7,10 @@ body {
     padding-right: 50px;
   }
 
+  .funParagraph {
+    color: green;
+}
+
 #mainHeading {
     color: red;
     font-size: 25pt;
@@ -16,11 +20,6 @@ body {
     background-color: #88CCEA;
     width: 100%;
     padding-top: 25px;
-}
-
-
-#funParagraph {
-    color: green;
 }
 
 .container {
@@ -136,4 +135,38 @@ img.bg {
     font-size: 11pt;
     color: black;
     padding: 20px;
+}
+
+{
+    width: 300px;
+    text-align: center;
+ }
+
+.column {
+float: left;
+width: 70%;
+margin: 0 auto;
+}
+
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+
+.left {
+ padding-right: 5px;
+ padding-left: 20px;
+ width: 50%
+}
+
+.right {
+ padding-right: 5px;
+ padding-bottom: 60px;
+ width: 20%
+}
+
+.box {
+ display: inline-block;
+ clear: both;
 }

@@ -3,6 +3,8 @@ body {
     margin: 8px;
     display: block;
     background-color: white;
+    padding-left: 50px;
+    padding-right: 50px;
   }
 
 #mainHeading {
@@ -16,20 +18,31 @@ body {
 
 .container {
     column-count: 4;
+    margin: 100px;
     vertical-align: center;
 }
 
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
 .containerTwo {
-    position: relative;
-    text-align: center;
+    background-image: url("/images/edsheerantour.jpeg");
+    background-position: center;
     color: white;
+    width: 100%;
+    height: 100%;
 }
 
-.centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.centerAgain {
+    /* display: block; */
+    padding: 100px;
+    margin: auto;
+    width: 60%;
+    height: 80%;
   }
 
 figure {
@@ -44,7 +57,7 @@ figcaption {
     font-size: 10pt;
   }
 
-#textLeft {
+/* #textLeft {
     font-family: avenir-lt-w01_35-light1475496,avenir-lt-w05_35-light,sans-serif;
     margin: full-width;
     color: purple;
@@ -52,42 +65,34 @@ figcaption {
     font-size: 11pt;
     line-height: 20px;
     text-align: center;
-  }
+  } */
 
 p {
     font-family: avenir-lt-w01_35-light1475496,avenir-lt-w05_35-light,sans-serif;
     margin: full-width;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
     padding-bottom: 50px;
     display: full-width;
-    font-size: 11pt;
-    line-height: 20px;
+    font-size: 15pt;
+    line-height: 25px;
     text-align: center;
   }
 
-  .column {
+ /* .column1 {
     float: left;
     clear: both;
     display: table;
-    flex: 50%;
-    padding: 5px;
-    background-color: greenyellow;
-  }
+    flex: 40%;
+    background-color: pink !important;
+  } */
 
-  .column2 {
-    float: right;
-    clear: both;
-    flex: 50%;
-    width: auto;
-    background-color: greenyellow;
-    background-size: auto;
-  }
-
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
+#fancyText {
+    font-family: avenir-lt-w01_35-light1475496,avenir-lt-w05_35-light,sans-serif;
+    font-size: 13pt;
+    line-height: 25px;
+    margin: auto;
+    text-align: left;
   }
 
 h1 {
@@ -107,8 +112,8 @@ h2 {
     display: block;
     background-color: transparent;
   }
-
-  img.bg {
+/* 
+img.bg {
     min-height: 100%;
     min-width: 1024px;
       
@@ -116,7 +121,7 @@ h2 {
     height: auto;
 
     position: center;
-  }
+  } */
 
 #footer {
     background: rgba(233, 233, 233, 0.863);

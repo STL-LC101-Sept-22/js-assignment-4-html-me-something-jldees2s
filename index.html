@@ -3,6 +3,26 @@
    <head>
       <link rel="stylesheet" href="styles.css">
       <title>Ed Sheeran</title>
+      <style> 
+      {
+         width: 300px;
+         height: 100px;
+         padding: 50px;
+         border: 1px red;
+         box-sizing: border-box;
+      }
+
+    .column {
+    float: left;
+    width: 70%;
+    }
+
+    .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+    </style>
    </head>
 
    <body>
@@ -17,30 +37,26 @@
             <article>
                <section>
                   <div class="row">
-                  <h2>Early Years</h2>
                   <div class="column">
-                  <p style="textLeft">Ed Sheeran was born on February 17, 1991, in Halifax, West Yorkshire, in the United Kingdom. When he was young, he began playing guitar, showing early promise as a musical talent. When he was 11, Sheeran met singer-songwriter Damien Rice backstage at one of Rice’s shows, and the young musician found added inspiration. It wasn’t long before Sheeran was recording CDs and selling them, and he soon put together his first official EP, <i>The Orange Room</i>. With that accomplishment and his abiding ambition driving him, at only 14 years of age, he headed to London for the summer.</p>
+                  <h2>Early Years</h2>
+                  <p id="fancyText">Ed Sheeran was born on February 17, 1991, in Halifax, West Yorkshire, in the United Kingdom. When he was young, he began playing guitar, showing early promise as a musical talent. When he was 11, Sheeran met singer-songwriter Damien Rice backstage at one of Rice’s shows, and the young musician found added inspiration. It wasn’t long before Sheeran was recording CDs and selling them, and he soon put together his first official EP, <i>The Orange Room</i>. With that accomplishment and his abiding ambition driving him, at only 14 years of age, he headed to London for the summer.</p>
+                  <div class="column">
+                  <img src="/images/0_Ed-Sheeran-young.jpeg" alt="Ed Sheeran early years">
                   </div>
-                  <div class="column2">
-                  <figure>
-                     <img src="/images/0_Ed-Sheeran-young.jpeg" alt="Ed Sheeran early years">
-                  </figure> 
-                  </div>
+               </div>
                </div>
                </section>
                <br>
                <br>
                <section>
                   <h2>Discovery</h2>
-                  <p>When Ed made it to the United States in 2010, he found a new fan in Jamie Foxx, who asked him to appear on his Sirius radio show. Soon after, in January 2011, Ed released yet another EP, his last as an independent artist. Without any promotion, the record reached No. 2 on the iTunes chart, and he signed on with Atlantic Records that same month. He went on to release many major studio albums, <i>+</i> (Plus), <i>x</i> (Multiply), <i>÷</i> (Divide), <i>No.6 Collaborations Project</i>, and <i>=</i> (Equals).</p>
-                  <figure>
-                     <img src="/images/ff83836e-b310-42a7-8a68-da4a53be956c.sized-1000x1000.jpeg" alt="Ed Sheeran Multiply" width= "auto">
-                  </figure>
+                  <p>When Ed made it to the United States in 2010, he found a new fan in Jamie Foxx, who asked him to appear on his Sirius radio show. Soon after, in January 2011, Ed released yet another EP, his last as an independent artist. Without any promotion, the record reached No. 2 on the iTunes chart, and he signed on with Atlantic Records that same month. He went on to release many major studio albums, <i>+</i> (Plus), <i>x</i> (Multiply), <i>÷</i> (Divide), <i>No.6 Collaborations Project</i>, and <i>=</i> (Equals). <br><br> Ed’s personality shines through his music. His use of loop pedals makes for a very interesting sound and he writes catchy, accessible tunes. But he’s also great at conveying emotion, communicating and speaking to people through his lyrics and performances.</p>
+                  <img src="/images/ff83836e-b310-42a7-8a68-da4a53be956c.sized-1000x1000.jpeg" alt="Ed Sheeran Multiply" class="center">
                </section>
+               <br><br><br>
                <section>
                   <h2>Albums</h2>
-                  <p>Ed Sheeran's discography consists of four solo studio albums, one collaboration album, and many successful singles. To date, Sheeran has sold over 150 million records worldwide, making him one of the best-selling music artists in history<a href="https://en.wikipedia.org/wiki/List_of_best-selling_music_artists">[1]</a></a>. According to RIAA, Sheeran is the 13th best-selling digital singles artist in the United States with certified sales of 80.5 million.<a href="https://en.wikipedia.org/wiki/Ed_Sheeran_discography#cite_note-3">[2]</a></a></p>
-               <br>
+                  <p style="padding-bottom: 0px; margin-bottom: 0px; padding-bottom: 0px;">Ed Sheeran's discography consists of four solo studio albums, one collaboration album, and many successful singles. To date, Sheeran has sold over 150 million records worldwide, making him one of the best-selling music artists in history<a href="https://en.wikipedia.org/wiki/List_of_best-selling_music_artists">[1]</a></a>. According to RIAA, Sheeran is the 13th best-selling digital singles artist in the United States with certified sales of 80.5 million.<a href="https://en.wikipedia.org/wiki/Ed_Sheeran_discography#cite_note-3">[2]</a></a></p>
                   <div class="row">
                   <div class="container">
                   <figure>
@@ -68,12 +84,13 @@
                   <h2 id="mainHeading">2023 North American <i>Mathematics</i> Tour</h2>
                   <br>
                   <div class="containerTwo">
-                  <img src="/images/edsheerantour.jpeg" alt="Ed Sheeran Tour" style="width:100%;">
-                  <div class="centered">
-                  <p style="padding-top: 30px; padding-left: 300px padding-right: 30px; padding-bottom: 30px;background-color: rgba(255, 255, 255, 0.35); margin: 30px; text-shadow: 2px 2px 4px #000000;">Ed Sheeran is bringing his <i>Mathematics</i> tour to North American shores next year. The singer announced dates for his first North American side tour in almost five years on October 3, 2022. His stadium shows kick off on May 6, 2023 at AT&T Stadium in Arlington, TX.</p>
+                  <!-- <img src="/images/edsheerantour.jpeg" alt="Ed Sheeran Tour" style="width:60%;"> -->
+                  <div class="centerAgain">
+                  <p style="padding-top: 100px; padding-left: 30px padding-right: 30px; padding-bottom: 80px; margin: 20px; font-size: 22px; line-height: 32px; background-color: rgba(255, 255, 255, 0.35); margin: 30px; text-shadow: 2px 2px 4px #000000;">Ed Sheeran is bringing his <i>Mathematics</i> tour to North American shores next year. The singer announced dates for his first North American side tour in almost five years on October 3, 2022. His stadium shows kick off on May 6, 2023 at AT&T Stadium in Arlington, TX.</p>
                   </div>
                   </div>
                </section>
+               <br><br>
          </main>
    
          <footer>

@@ -7,13 +7,13 @@ body {
     padding-right: 50px;
   }
 
-  .funParagraph {
-    color: green;
-}
-
 #mainHeading {
     color: red;
     font-size: 25pt;
+}
+
+.funParagraph {
+    color: green;
 }
 
 .discovery {

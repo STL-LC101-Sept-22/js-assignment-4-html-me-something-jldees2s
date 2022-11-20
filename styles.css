@@ -2,11 +2,12 @@
 body {
     margin: 8px;
     display: block;
-    background-color: transparent;
+    background-color: white;
   }
 
 #mainHeading {
     color: red;
+    font-size: 25pt;
 }
 
 .funParagraph {
@@ -15,21 +16,82 @@ body {
 
 .container {
     column-count: 4;
+    vertical-align: center;
 }
 
-p {
-    margin: 20px;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    display: block;
+.containerTwo {
+    position: relative;
     text-align: center;
-    background-color: lightgray;
+    color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 
+figure {
+    vertical-align: top;
+    margin-top: 0;
+}
+
+figcaption {
+    font-family: avenir-lt-w01_35-light1475496,avenir-lt-w05_35-light,sans-serif;
+    padding: 2px;
+    text-align: center;
+    font-size: 10pt;
+  }
+
+#textLeft {
+    font-family: avenir-lt-w01_35-light1475496,avenir-lt-w05_35-light,sans-serif;
+    margin: full-width;
+    color: purple;
+    display: full-width;
+    font-size: 11pt;
+    line-height: 20px;
+    text-align: center;
+  }
+
+p {
+    font-family: avenir-lt-w01_35-light1475496,avenir-lt-w05_35-light,sans-serif;
+    margin: full-width;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    display: full-width;
+    font-size: 11pt;
+    line-height: 20px;
+    text-align: center;
+  }
+
+  .column {
+    float: left;
+    clear: both;
+    display: table;
+    flex: 50%;
+    padding: 5px;
+    background-color: greenyellow;
+  }
+
+  .column2 {
+    float: right;
+    clear: both;
+    flex: 50%;
+    width: auto;
+    background-color: greenyellow;
+    background-size: auto;
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 
 h1 {
+    font-family: questrial,sans-serif;
     margin: 40px;
     padding: 20px;
     text-align: center;  
@@ -38,9 +100,29 @@ h1 {
   }
 
 h2 {
+    font-family: questrial,sans-serif;
     margin: 5px;
     padding: 5px;
     text-align: center;  
     display: block;
     background-color: transparent;
   }
+
+  img.bg {
+    min-height: 100%;
+    min-width: 1024px;
+      
+    width: 100%;
+    height: auto;
+
+    position: center;
+  }
+
+#footer {
+    background: rgba(233, 233, 233, 0.863);
+    height: 30px;
+    width: 100%;
+    font-family: questrial,sans-serif;
+    color: black;
+    padding: 20px;
+}

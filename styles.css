@@ -12,13 +12,26 @@ body {
     font-size: 25pt;
 }
 
+.discovery {
+    background-color: #88CCEA;
+    width: 100%;
+    padding-top: 25px;
+}
+
+
 .funParagraph {
     color: green;
+    padding-bottom: 5px;
 }
 
 .container {
     column-count: 4;
     margin: 100px;
+    vertical-align: center;
+}
+
+#bg {
+    width: 100%;
     vertical-align: center;
 }
 
@@ -37,8 +50,11 @@ body {
     height: 100%;
 }
 
+.aligncenter {
+    text-align: center;
+}
+
 .centerAgain {
-    /* display: block; */
     padding: 100px;
     margin: auto;
     width: 60%;
@@ -57,21 +73,11 @@ figcaption {
     font-size: 10pt;
   }
 
-/* #textLeft {
-    font-family: avenir-lt-w01_35-light1475496,avenir-lt-w05_35-light,sans-serif;
-    margin: full-width;
-    color: purple;
-    display: full-width;
-    font-size: 11pt;
-    line-height: 20px;
-    text-align: center;
-  } */
-
 p {
     font-family: avenir-lt-w01_35-light1475496,avenir-lt-w05_35-light,sans-serif;
     margin: full-width;
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-left: 100px;
+    padding-right: 100px;
     padding-bottom: 50px;
     display: full-width;
     font-size: 15pt;
@@ -79,20 +85,20 @@ p {
     text-align: center;
   }
 
- /* .column1 {
-    float: left;
-    clear: both;
-    display: table;
-    flex: 40%;
-    background-color: pink !important;
-  } */
-
 #fancyText {
     font-family: avenir-lt-w01_35-light1475496,avenir-lt-w05_35-light,sans-serif;
     font-size: 13pt;
     line-height: 25px;
-    margin: auto;
     text-align: left;
+  }
+
+#fancyH2 {
+    font-family: questrial,sans-serif;
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+    display: block;  
+    background-color: transparent;
   }
 
 h1 {
@@ -108,11 +114,11 @@ h2 {
     font-family: questrial,sans-serif;
     margin: 5px;
     padding: 5px;
-    text-align: center;  
+    text-align: center;
     display: block;
     background-color: transparent;
   }
-/* 
+
 img.bg {
     min-height: 100%;
     min-width: 1024px;
@@ -121,13 +127,14 @@ img.bg {
     height: auto;
 
     position: center;
-  } */
+  } 
 
 #footer {
     background: rgba(233, 233, 233, 0.863);
     height: 30px;
     width: 100%;
     font-family: questrial,sans-serif;
+    font-size: 11pt;
     color: black;
     padding: 20px;
 }

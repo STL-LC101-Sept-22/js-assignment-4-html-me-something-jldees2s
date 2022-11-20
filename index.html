@@ -6,15 +6,13 @@
       <style> 
       {
          width: 300px;
-         height: 100px;
-         padding: 50px;
-         border: 1px red;
-         box-sizing: border-box;
+         text-align: center;
       }
 
     .column {
     float: left;
     width: 70%;
+    margin: 0 auto;
     }
 
     .row:after {
@@ -22,36 +20,52 @@
     display: table;
     clear: both;
     }
+
+    .left {
+      padding-right: 5px;
+      padding-left: 20px;
+      width: 50%
+    }
+
+    .right {
+      padding-right: 5px;
+      padding-bottom: 60px;
+      width: 20%
+    }
+
+    .box {
+      display: inline-block;
+      clear: both;
+    }
     </style>
    </head>
 
    <body>
       <h1>Ed Sheeran</h1>
       <h2>Who Is Ed Sheeran?</h2>
-      <p id="testP" class="funParagraph">Ed Sheeran is a singer/songwriter who began playing guitar at a young age and soon after started writing his own songs. When he was just a teenager, he moved to London to pursue his music, and his outpouring of creativity added up to several early EPs and hundreds of live shows. Drawing attention for his online performances, Sheeran hit No. 1 on the iTunes chart before he ever signed with a record label. Since signing with Atlantic, Sheeran has sold millions of records and won Grammys for hits like <i>Thinking Out Loud</i> and <i>Shape of You</i>. He won Best Pop Vocal Album of the year for his 2018 album, <i>÷</i>.</p>
+      <p class="funParagraph">Ed Sheeran is a singer/songwriter who began playing guitar at a young age and soon after started writing his own songs. When he was just a teenager, he moved to London to pursue his music, and his outpouring of creativity added up to several early EPs and hundreds of live shows. Drawing attention for his online performances, Sheeran hit No. 1 on the iTunes chart before he ever signed with a record label. Since signing with Atlantic, Sheeran has sold millions of records and won Grammys for hits like <i>Thinking Out Loud</i> and <i>Shape of You</i>. He won Best Pop Vocal Album of the year for his 2018 album, <i>÷</i>.</p>
          <header>
          </header>
    <br>
    <br>
          <main>
-            <article>
-               <section>
-                  <div class="row">
-                  <div class="column">
-                  <h2>Early Years</h2>
+            <br>
+               <section> 
+                  <div id="bg">        
+                  <div class="box left">
+                  <h2 id="fancyH2">Early Years</h2>
                   <p id="fancyText">Ed Sheeran was born on February 17, 1991, in Halifax, West Yorkshire, in the United Kingdom. When he was young, he began playing guitar, showing early promise as a musical talent. When he was 11, Sheeran met singer-songwriter Damien Rice backstage at one of Rice’s shows, and the young musician found added inspiration. It wasn’t long before Sheeran was recording CDs and selling them, and he soon put together his first official EP, <i>The Orange Room</i>. With that accomplishment and his abiding ambition driving him, at only 14 years of age, he headed to London for the summer.</p>
-                  <div class="column">
-                  <img src="/images/0_Ed-Sheeran-young.jpeg" alt="Ed Sheeran early years">
                   </div>
-               </div>
-               </div>
+                  <div class="box right">
+                  <img src="/images/0_Ed-Sheeran-young.jpeg" alt="Ed Sheeran early years" class="aligncenter">
+               </div> 
+               </div>  
                </section>
                <br>
                <br>
-               <section>
+               <section class="discovery">
                   <h2>Discovery</h2>
                   <p>When Ed made it to the United States in 2010, he found a new fan in Jamie Foxx, who asked him to appear on his Sirius radio show. Soon after, in January 2011, Ed released yet another EP, his last as an independent artist. Without any promotion, the record reached No. 2 on the iTunes chart, and he signed on with Atlantic Records that same month. He went on to release many major studio albums, <i>+</i> (Plus), <i>x</i> (Multiply), <i>÷</i> (Divide), <i>No.6 Collaborations Project</i>, and <i>=</i> (Equals). <br><br> Ed’s personality shines through his music. His use of loop pedals makes for a very interesting sound and he writes catchy, accessible tunes. But he’s also great at conveying emotion, communicating and speaking to people through his lyrics and performances.</p>
-                  <img src="/images/ff83836e-b310-42a7-8a68-da4a53be956c.sized-1000x1000.jpeg" alt="Ed Sheeran Multiply" class="center">
                </section>
                <br><br><br>
                <section>
@@ -84,7 +98,6 @@
                   <h2 id="mainHeading">2023 North American <i>Mathematics</i> Tour</h2>
                   <br>
                   <div class="containerTwo">
-                  <!-- <img src="/images/edsheerantour.jpeg" alt="Ed Sheeran Tour" style="width:60%;"> -->
                   <div class="centerAgain">
                   <p style="padding-top: 100px; padding-left: 30px padding-right: 30px; padding-bottom: 80px; margin: 20px; font-size: 22px; line-height: 32px; background-color: rgba(255, 255, 255, 0.35); margin: 30px; text-shadow: 2px 2px 4px #000000;">Ed Sheeran is bringing his <i>Mathematics</i> tour to North American shores next year. The singer announced dates for his first North American side tour in almost five years on October 3, 2022. His stadium shows kick off on May 6, 2023 at AT&T Stadium in Arlington, TX.</p>
                   </div>
@@ -94,7 +107,7 @@
          </main>
    
          <footer>
-            <p id="footer">&copy; 2022 Jordan Dees</p>
+            <p id="footer">&copy; 2022 Jordan Dees &nbsp; &nbsp; | &nbsp; &nbsp; Launchcode LC101 Assignment 4</p>
          </footer>
       
    

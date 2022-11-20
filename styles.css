@@ -19,7 +19,7 @@ body {
 }
 
 
-.funParagraph {
+p.funParagraph {
     color: green;
     padding-bottom: 5px;
 }

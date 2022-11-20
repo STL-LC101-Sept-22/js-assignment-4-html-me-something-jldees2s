@@ -5,6 +5,14 @@ body {
     background-color: transparent;
   }
 
+#mainHeading {
+    color: red;
+}
+
+.funParagraph {
+    color: green;
+}
+
 p {
     margin: 20px;
     padding-left: 50px;
